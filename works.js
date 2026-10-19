@@ -35,7 +35,23 @@ const publishedWorks=[
     "id": "catalog-elderly",
     "cover": "assets/catalog-elderly-cover.png",
     "date": "2026/10/17",
-    "gallery": []
+    "gallery": [
+      {
+        "caption": "角色选择（源码预览）",
+        "kind": "source",
+        "src": "assets/catalog-elderly-0.jpg"
+      },
+      {
+        "caption": "家属首页（源码预览）",
+        "kind": "source",
+        "src": "assets/catalog-elderly-1.jpg"
+      },
+      {
+        "caption": "设备中心（源码预览）",
+        "kind": "source",
+        "src": "assets/catalog-elderly-2.jpg"
+      }
+    ]
   },
   {
     "title": "student_travel · 大学生结伴旅行",
@@ -46,7 +62,23 @@ const publishedWorks=[
     "id": "catalog-travel",
     "cover": "assets/catalog-travel-cover.png",
     "date": "2026/10/17",
-    "gallery": []
+    "gallery": [
+      {
+        "caption": "旅行首页（源码预览）",
+        "kind": "source",
+        "src": "assets/catalog-travel-0.jpg"
+      },
+      {
+        "caption": "旅行列表（源码预览）",
+        "kind": "source",
+        "src": "assets/catalog-travel-1.jpg"
+      },
+      {
+        "caption": "个人中心（源码预览）",
+        "kind": "source",
+        "src": "assets/catalog-travel-2.jpg"
+      }
+    ]
   },
   {
     "id": "catalog-design-award",
