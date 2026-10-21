@@ -84,15 +84,35 @@ const publishedWorks=[
     "id": "catalog-zhixue",
     "title": "智学派 · 女娲教育智能体",
     "category": "AI 智能体",
-    "description": "面向学习者的智能学习助理，基于女娲平台构建，围绕对话答疑、知识库检索、学习规划与学情资源组织功能。\n前端采用 React、TypeScript、Vite 与 Tailwind CSS，包含会话列表、知识来源展示和能力中心；本地 Python 内核代码包含 ReAct 任务拆解、分层记忆、教学技能调度与多工具调用模块。\n当前处于开发与联调阶段：已有记录显示自定义页面的会话接口存在平台授权限制，端到端可用性仍待验收；本地内核与平台应用的完整集成尚未确认。\n下图为根据项目代码整理的功能结构示意，不是真实运行截图。个人分工与量化效果尚未补充。\n平台链接为项目开发入口，访问需要女娲账号及对应项目权限。",
+    "description": "面向学习者的智能学习助理，基于女娲平台构建，围绕对话答疑、知识库检索、学习规划与学情资源组织功能。\n实际展示：2026-10-21 在女娲平台项目预览中拍摄了首页、能力中心，以及“帮我梳理二次函数重点”的真实问答与知识引用；HR 无需登录即可在此查看图片。\n前端采用 React、TypeScript、Vite 与 Tailwind CSS，包含会话列表、知识来源展示和能力中心；本地 Python 内核代码包含 ReAct 任务拆解、分层记忆、教学技能调度与多工具调用模块。\n项目仍处于开发与联调阶段。本次验证了一个学习问答示例及界面展示，不代表所有能力、跨会话同步或本地内核集成均已验收；此前曾出现平台接口授权问题。\n前四张为真实平台预览截图，仅裁取作品区域；最后一张为结构示意图。个人分工与量化效果尚未补充。\n平台链接为项目开发入口，访问需要女娲账号及对应项目权限。",
     "status": "开发与联调中",
     "url": "https://agent.nuwax.com/space/53261087/app-dev/7653583926398976",
     "materialLabel": "女娲平台项目（需登录及权限）",
-    "cover": "assets/zhixue-structure.svg",
+    "cover": "assets/zhixue-home.png",
     "gallery": [
       {
+        "src": "assets/zhixue-home.png",
+        "caption": "智学派首页与学习入口（2026-10-21 平台预览实拍）",
+        "kind": "screenshot"
+      },
+      {
+        "src": "assets/zhixue-capabilities.png",
+        "caption": "能力中心：答疑、检索与学习规划（2026-10-21 平台预览实拍）",
+        "kind": "screenshot"
+      },
+      {
+        "src": "assets/zhixue-answer.png",
+        "caption": "实际问答：帮我梳理二次函数重点（2026-10-21 平台预览实拍）",
+        "kind": "screenshot"
+      },
+      {
+        "src": "assets/zhixue-sources.png",
+        "caption": "实际回答中的知识点与常见问答引用（2026-10-21 平台预览实拍）",
+        "kind": "screenshot"
+      },
+      {
         "src": "assets/zhixue-structure.svg",
-        "caption": "智学派功能结构示意（依据代码整理，非运行截图）",
+        "caption": "功能结构示意（依据代码整理，非运行截图）",
         "kind": "document"
       }
     ],
