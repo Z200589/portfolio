@@ -1,5 +1,28 @@
 const publishedWorks=[
   {
+    "id": "catalog-attendance",
+    "title": "学生考勤管理系统",
+    "category": "Web 应用",
+    "description": "基于 Spring Boot、Spring Security、Thymeleaf 与 JPA 的三角色考勤管理系统，支持 H2 / PostgreSQL 和 Flyway 迁移。\n主要功能：课程与选课管理、课次名单快照、动态二维码签到、请假审批、关闭课次缺勤结算、补签审计、统一统计与导入预览。\n2026-10-27 完整自动化测试 133 项通过；已完成浏览器扫码登录回跳、重复签到时间一致、请假审批、关闭课次及报表核对，并验证合成数据备份恢复。\n截图使用合成学生数据；移动页面为 375px 浏览器视口，并非实体手机实测。目前为本地验收版本，现场网络、实体手机和生产部署仍待验收。",
+    "status": "本地验收通过",
+    "url": "documents/attendance-system.html",
+    "materialLabel": "查看项目介绍与验收结果",
+    "cover": "assets/attendance-report.png",
+    "date": "2026-10-27",
+    "gallery": [
+      {
+        "src": "assets/attendance-report.png",
+        "caption": "考勤统计与关闭结算（合成数据，实际浏览器截图）",
+        "kind": "screenshot"
+      },
+      {
+        "src": "assets/attendance-mobile.png",
+        "caption": "重复签到保留首次时间（375px浏览器视口，非真机）",
+        "kind": "screenshot"
+      }
+    ]
+  },
+  {
     "id": "catalog-shuyun",
     "title": "蜀韵灵境——川西高原的三重文化秘境",
     "category": "Web 应用",
@@ -202,3 +225,4 @@ const publishedWorks=[
     ]
   }
 ];
+
