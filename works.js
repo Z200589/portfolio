@@ -20,7 +20,9 @@ const publishedWorks=[
         "caption": "重复签到保留首次时间（375px浏览器视口，非真机）",
         "kind": "screenshot"
       }
-    ]
+    ],
+    "launchUrl": "http://127.0.0.1:4173/?launch=catalog-attendance",
+    "launchLabel": "一键启动（本机）"
   },
   {
     "id": "catalog-shuyun",
@@ -225,4 +227,3 @@ const publishedWorks=[
     ]
   }
 ];
-
